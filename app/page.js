@@ -1,6 +1,6 @@
 'use client';
 import { useState, useEffect } from 'react';
-import preguntasData from './data/preguntas_pl300.json';
+import preguntasData from '../data/preguntas1.json';
 
 export default function Quiz() {
   const [preguntas, setPreguntas] = useState([]);
@@ -55,19 +55,24 @@ export default function Quiz() {
     <main className="min-h-screen bg-gray-100 p-4">
       <div className="max-w-2xl mx-auto bg-white p-6 rounded-2xl shadow-md mt-10">
         <div className="text-sm text-gray-500 mb-4">Pregunta {indice + 1} de {preguntas.length}</div>
-        <h1 className="text-xl font-bold mb-6">{preguntaActual.pregunta}</h1>
+        <h1 className="text-xl font-bold mb-6 text-blue-900">{preguntaActual.pregunta}</h1>
         
         <div className="space-y-3">
           {preguntaActual.opciones.map((op, i) => (
             <button
               key={i}
               onClick={() => manejarRespuesta(op)}
-              className={`w-full text-left p-4 rounded-lg border-2 transition-all ${
+              className={`w-full text-left p-4 rounded-lg border-2 transition-all text-base ${
                 respondido 
-                  ? op === preguntaActual.correcta ? 'border-green-500 bg-green-50' : op === seleccion ? 'border-red-500 bg-red-50' : 'border-gray-100'
-                  : 'border-gray-200 hover:border-blue-400'
+                  ? op === preguntaActual.correcta 
+                    ? 'border-green-500 bg-green-50 text-green-700 font-bold' // Fuente verde si es correcta
+                    : op === seleccion 
+                      ? 'border-red-500 bg-red-50 text-red-700'              // Fuente roja si es incorrecta
+                      : 'border-gray-100 text-gray-400'                     // Fuente gris para las no elegidas
+                  : 'border-gray-200 hover:border-blue-400 text-gray-800'   // Fuente oscura por defecto
               }`}
             >
+              <span className="font-semibold mr-2">{String.fromCharCode(65 + i)}.</span>
               {op}
             </button>
           ))}

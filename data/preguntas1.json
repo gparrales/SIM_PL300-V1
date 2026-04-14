@@ -518,7 +518,7 @@
   },
   {
     "id": 48,
-    "pregunta": "Mismo escenario (Reducir tamaño). Solución: Quita la columna ProductID de la tabla Sales.,
+    "pregunta": "Mismo escenario (Reducir tamaño). Solución: Quita la columna ProductID de la tabla Sales.",
     "opciones": [
       "Sí",
       "No",

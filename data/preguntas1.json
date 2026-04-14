@@ -15,8 +15,8 @@
     "pregunta": "Está creando un modelo de datos en Power BI Desktop. Tiene una tabla llamada Sales que contiene millones de filas. Debe reducir el tamaño del modelo semántico sin perder la capacidad de informar sobre las ventas totales por año y por categoría de producto. ¿Qué debe hacer?",
     "opciones": [
       "Cambiar el tipo de datos de las columnas de fecha a Texto.",
-      "Agrupar los datos por año y categoría durante la importación.",
       "Eliminar las relaciones entre las tablas.",
+      "Agrupar los datos por año y categoría durante la importación.",
       "Desactivar la opción de carga de la tabla Sales."
     ],
     "correcta": "Agrupar los datos por año y categoría durante la importación."
@@ -25,9 +25,9 @@
     "id": 3,
     "pregunta": "Tiene una consulta en Power Query que recupera datos de una carpeta que contiene varios archivos CSV. Debe combinar los archivos y asegurarse de que la primera fila de cada archivo se utilice como encabezado. ¿Qué paso debe realizar primero?",
     "opciones": [
-      "Combinar archivos.",
       "Usar la primera fila como encabezado.",
       "Transformar el archivo de ejemplo.",
+      "Combinar archivos.",
       "Expandir la columna de contenido."
     ],
     "correcta": "Combinar archivos."
@@ -37,9 +37,9 @@
     "pregunta": "Está configurando la seguridad de nivel de línea (RLS) en un informe. Ha creado los roles y las expresiones DAX de filtro. ¿Cuál es el siguiente paso para validar que el RLS funciona correctamente en Power BI Desktop?",
     "opciones": [
       "Publicar el informe en el servicio Power BI.",
-      "Seleccionar 'Ver como' y elegir un rol.",
       "Asignar usuarios a los roles en el portal de Azure.",
-      "Compartir el informe con un colega."
+      "Compartir el informe con un colega.",
+      "Seleccionar 'Ver como' y elegir un rol."
     ],
     "correcta": "Seleccionar 'Ver como' y elegir un rol."
   },
@@ -48,8 +48,8 @@
     "pregunta": "Debe crear una medida DAX que calcule las ventas totales del año hasta la fecha (YTD). ¿Qué función debe utilizar?",
     "opciones": [
       "TOTALYTD",
-      "DATESYTD",
       "CALCULATE con FILTER",
+      "DATESYTD",
       "SUMX"
     ],
     "correcta": "TOTALYTD"
@@ -59,8 +59,8 @@
     "pregunta": "Tiene un gráfico de barras que muestra las ventas por región. Debe permitir que los usuarios vean los detalles de las ciudades de una región al hacer clic en una barra. ¿Qué característica debe configurar?",
     "opciones": [
       "Marcadores (Bookmarks).",
-      "Obtención de detalles (Drillthrough).",
       "Información sobre herramientas (Tooltips).",
+      "Obtención de detalles (Drillthrough).",
       "Panel de filtro."
     ],
     "correcta": "Obtención de detalles (Drillthrough)."
@@ -69,10 +69,10 @@
     "id": 7,
     "pregunta": "En Power Query, tiene una columna con valores 'Nombre Apellido'. Necesita dividir esta columna en dos columnas separadas. ¿Qué transformador debe usar?",
     "opciones": [
-      "Dividir columna por delimitador.",
+      "Reemplazar valores.",
       "Formato - Mayúsculas.",
       "Extraer texto después del delimitador.",
-      "Reemplazar valores."
+      "Dividir columna por delimitador."
     ],
     "correcta": "Dividir columna por delimitador."
   },
@@ -81,8 +81,8 @@
     "pregunta": "Debe optimizar el rendimiento de un informe de Power BI que es lento al cargar. Al usar el Analizador de rendimiento, nota que una medida DAX específica tarda mucho tiempo. ¿Cuál es una causa común?",
     "opciones": [
       "La medida usa funciones de inteligencia de tiempo.",
-      "La medida realiza cálculos complejos sobre millones de filas sin filtros adecuados.",
       "El informe tiene demasiados objetos visuales.",
+      "La medida realiza cálculos complejos sobre millones de filas sin filtros adecuados.",
       "El tema del informe es demasiado pesado."
     ],
     "correcta": "La medida realiza cálculos complejos sobre millones de filas sin filtros adecuados."
@@ -91,8 +91,8 @@
     "id": 9,
     "pregunta": "Está publicando un informe en un área de trabajo de Power BI. Desea que los usuarios puedan crear sus propios informes utilizando el modelo semántico del informe publicado. ¿Qué permiso debe otorgarles?",
     "opciones": [
-      "Lectura.",
       "Compilación (Build).",
+      "Lectura.",
       "Escritura.",
       "Propietario."
     ],
@@ -103,9 +103,9 @@
     "pregunta": "Tiene una tabla de hechos y varias tablas de dimensiones. ¿Qué tipo de esquema es el más recomendado para Power BI?",
     "opciones": [
       "Esquema de copo de nieve.",
-      "Esquema en estrella.",
       "Esquema plano.",
-      "Jerarquía de tablas."
+      "Jerarquía de tablas.",
+      "Esquema en estrella."
     ],
     "correcta": "Esquema en estrella."
   },
@@ -113,9 +113,9 @@
     "id": 11,
     "pregunta": "Necesita crear una tabla de fechas personalizada en Power BI Desktop usando DAX. ¿Qué función es la más adecuada para generar una columna de fechas continuas?",
     "opciones": [
-      "CALENDAR",
-      "DATE",
       "TODAY",
+      "DATE",
+      "CALENDAR",
       "NOW"
     ],
     "correcta": "CALENDAR"
@@ -146,8 +146,8 @@
     "id": 14,
     "pregunta": "Al importar datos de una base de datos relacional, nota que algunas filas tienen valores nulos en columnas críticas. ¿Cuál es la mejor práctica en Power Query?",
     "opciones": [
-      "Dejar los nulos como están.",
       "Filtrar las filas con nulos o reemplazarlos con un valor predeterminado.",
+      "Dejar los nulos como están.",
       "Eliminar toda la columna.",
       "Cambiar el tipo de datos a Booleano."
     ],
@@ -179,8 +179,8 @@
     "id": 17,
     "pregunta": "Tiene dos tablas: Ventas y Presupuesto. Ambas tienen columnas de Fecha y Producto. ¿Cuál es la mejor forma de relacionarlas?",
     "opciones": [
-      "Crear una relación de varios a varios entre ellas.",
       "Usar una tabla de dimensiones de Fecha y otra de Producto comunes para ambas tablas de hechos.",
+      "Crear una relación de varios a varios entre ellas.",
       "Combinar las tablas en una sola.",
       "No crear relaciones y usar DAX complejo."
     ],
@@ -212,9 +212,9 @@
     "id": 20,
     "pregunta": "Necesita comparar las ventas del mes actual con las del mes anterior. ¿Qué función DAX de inteligencia de tiempo es útil?",
     "opciones": [
-      "PREVIOUSMONTH",
       "NEXTMOΝΤΗ",
       "LASTDATE",
+      "PREVIOUSMONTH",
       "FIRSTDATE"
     ],
     "correcta": "PREVIOUSMONTH"
@@ -246,9 +246,9 @@
     "pregunta": "Está configurando una relación entre una tabla de Ventas y una tabla de Calendario. ¿Cuál es la mejor práctica para la columna de fecha en la tabla de Calendario?",
     "opciones": [
       "Debe tener valores duplicados.",
-      "Debe contener fechas continuas y valores únicos.",
       "Debe ser de tipo texto.",
-      "Debe actualizarse manualmente cada mes."
+      "Debe actualizarse manualmente cada mes.",
+      "Debe contener fechas continuas y valores únicos."
     ],
     "correcta": "Debe contener fechas continuas y valores únicos."
   },

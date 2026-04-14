@@ -1,0 +1,563 @@
+[
+  {
+    "id": 1,
+    "pregunta": "Tiene un informe de Power BI que utiliza datos de una base de datos de Microsoft Azure SQL. Debe asegurarse de que los datos del informe se actualicen cada hora. ¿Qué debe configurar?",
+    "opciones": [
+      "Una actualización programada en el servicio Power BI.",
+      "Una actualización incremental.",
+      "Una suscripción al informe.",
+      "Un flujo de Power Automate."
+    ],
+    "correcta": "Una actualización programada en el servicio Power BI."
+  },
+  {
+    "id": 2,
+    "pregunta": "Está creando un modelo de datos en Power BI Desktop. Tiene una tabla llamada Sales que contiene millones de filas. Debe reducir el tamaño del modelo semántico sin perder la capacidad de informar sobre las ventas totales por año y por categoría de producto. ¿Qué debe hacer?",
+    "opciones": [
+      "Cambiar el tipo de datos de las columnas de fecha a Texto.",
+      "Agrupar los datos por año y categoría durante la importación.",
+      "Eliminar las relaciones entre las tablas.",
+      "Desactivar la opción de carga de la tabla Sales."
+    ],
+    "correcta": "Agrupar los datos por año y categoría durante la importación."
+  },
+  {
+    "id": 3,
+    "pregunta": "Tiene una consulta en Power Query que recupera datos de una carpeta que contiene varios archivos CSV. Debe combinar los archivos y asegurarse de que la primera fila de cada archivo se utilice como encabezado. ¿Qué paso debe realizar primero?",
+    "opciones": [
+      "Combinar archivos.",
+      "Usar la primera fila como encabezado.",
+      "Transformar el archivo de ejemplo.",
+      "Expandir la columna de contenido."
+    ],
+    "correcta": "Combinar archivos."
+  },
+  {
+    "id": 4,
+    "pregunta": "Está configurando la seguridad de nivel de línea (RLS) en un informe. Ha creado los roles y las expresiones DAX de filtro. ¿Cuál es el siguiente paso para validar que el RLS funciona correctamente en Power BI Desktop?",
+    "opciones": [
+      "Publicar el informe en el servicio Power BI.",
+      "Seleccionar 'Ver como' y elegir un rol.",
+      "Asignar usuarios a los roles en el portal de Azure.",
+      "Compartir el informe con un colega."
+    ],
+    "correcta": "Seleccionar 'Ver como' y elegir un rol."
+  },
+  {
+    "id": 5,
+    "pregunta": "Debe crear una medida DAX que calcule las ventas totales del año hasta la fecha (YTD). ¿Qué función debe utilizar?",
+    "opciones": [
+      "TOTALYTD",
+      "DATESYTD",
+      "CALCULATE con FILTER",
+      "SUMX"
+    ],
+    "correcta": "TOTALYTD"
+  },
+  {
+    "id": 6,
+    "pregunta": "Tiene un gráfico de barras que muestra las ventas por región. Debe permitir que los usuarios vean los detalles de las ciudades de una región al hacer clic en una barra. ¿Qué característica debe configurar?",
+    "opciones": [
+      "Marcadores (Bookmarks).",
+      "Obtención de detalles (Drillthrough).",
+      "Información sobre herramientas (Tooltips).",
+      "Panel de filtro."
+    ],
+    "correcta": "Obtención de detalles (Drillthrough)."
+  },
+  {
+    "id": 7,
+    "pregunta": "En Power Query, tiene una columna con valores 'Nombre Apellido'. Necesita dividir esta columna en dos columnas separadas. ¿Qué transformador debe usar?",
+    "opciones": [
+      "Dividir columna por delimitador.",
+      "Formato - Mayúsculas.",
+      "Extraer texto después del delimitador.",
+      "Reemplazar valores."
+    ],
+    "correcta": "Dividir columna por delimitador."
+  },
+  {
+    "id": 8,
+    "pregunta": "Debe optimizar el rendimiento de un informe de Power BI que es lento al cargar. Al usar el Analizador de rendimiento, nota que una medida DAX específica tarda mucho tiempo. ¿Cuál es una causa común?",
+    "opciones": [
+      "La medida usa funciones de inteligencia de tiempo.",
+      "La medida realiza cálculos complejos sobre millones de filas sin filtros adecuados.",
+      "El informe tiene demasiados objetos visuales.",
+      "El tema del informe es demasiado pesado."
+    ],
+    "correcta": "La medida realiza cálculos complejos sobre millones de filas sin filtros adecuados."
+  },
+  {
+    "id": 9,
+    "pregunta": "Está publicando un informe en un área de trabajo de Power BI. Desea que los usuarios puedan crear sus propios informes utilizando el modelo semántico del informe publicado. ¿Qué permiso debe otorgarles?",
+    "opciones": [
+      "Lectura.",
+      "Compilación (Build).",
+      "Escritura.",
+      "Propietario."
+    ],
+    "correcta": "Compilación (Build)."
+  },
+  {
+    "id": 10,
+    "pregunta": "Tiene una tabla de hechos y varias tablas de dimensiones. ¿Qué tipo de esquema es el más recomendado para Power BI?",
+    "opciones": [
+      "Esquema de copo de nieve.",
+      "Esquema en estrella.",
+      "Esquema plano.",
+      "Jerarquía de tablas."
+    ],
+    "correcta": "Esquema en estrella."
+  },
+  {
+    "id": 11,
+    "pregunta": "Necesita crear una tabla de fechas personalizada en Power BI Desktop usando DAX. ¿Qué función es la más adecuada para generar una columna de fechas continuas?",
+    "opciones": [
+      "CALENDAR",
+      "DATE",
+      "TODAY",
+      "NOW"
+    ],
+    "correcta": "CALENDAR"
+  },
+  {
+    "id": 12,
+    "pregunta": "Tiene un objeto visual de mapa que no muestra correctamente las ubicaciones. ¿Qué debe hacer para mejorar la precisión geográfica?",
+    "opciones": [
+      "Aumentar el tamaño del mapa.",
+      "Categorizar las columnas de datos (Ciudad, País, etc.) en la pestaña de Modelado.",
+      "Cambiar el color de los puntos.",
+      "Usar un mapa de calor."
+    ],
+    "correcta": "Categorizar las columnas de datos (Ciudad, País, etc.) en la pestaña de Modelado."
+  },
+  {
+    "id": 13,
+    "pregunta": "Desea que un objeto visual se filtre solo cuando se selecciona un valor en una segmentación de datos específica y no por otros objetos visuales. ¿Qué debe ajustar?",
+    "opciones": [
+      "Editar interacciones.",
+      "Panel de selección.",
+      "Filtros de nivel de página.",
+      "Sincronizar segmentadores."
+    ],
+    "correcta": "Editar interacciones."
+  },
+  {
+    "id": 14,
+    "pregunta": "Al importar datos de una base de datos relacional, nota que algunas filas tienen valores nulos en columnas críticas. ¿Cuál es la mejor práctica en Power Query?",
+    "opciones": [
+      "Dejar los nulos como están.",
+      "Filtrar las filas con nulos o reemplazarlos con un valor predeterminado.",
+      "Eliminar toda la columna.",
+      "Cambiar el tipo de datos a Booleano."
+    ],
+    "correcta": "Filtrar las filas con nulos o reemplazarlos con un valor predeterminado."
+  },
+  {
+    "id": 15,
+    "pregunta": "Debe crear una jerarquía en una tabla de productos. ¿Cuál es el orden correcto de los niveles?",
+    "opciones": [
+      "Producto > Categoría > Subcategoría.",
+      "Categoría > Subcategoría > Producto.",
+      "Subcategoría > Categoría > Producto.",
+      "Producto > Subcategoría > Categoría."
+    ],
+    "correcta": "Categoría > Subcategoría > Producto."
+  },
+  {
+    "id": 16,
+    "pregunta": "En el servicio Power BI, desea recibir una notificación cuando una métrica de ventas caiga por debajo de un umbral. ¿Qué debe configurar?",
+    "opciones": [
+      "Una alerta de datos.",
+      "Una suscripción.",
+      "Un marcador.",
+      "Un comentario."
+    ],
+    "correcta": "Una alerta de datos."
+  },
+  {
+    "id": 17,
+    "pregunta": "Tiene dos tablas: Ventas y Presupuesto. Ambas tienen columnas de Fecha y Producto. ¿Cuál es la mejor forma de relacionarlas?",
+    "opciones": [
+      "Crear una relación de varios a varios entre ellas.",
+      "Usar una tabla de dimensiones de Fecha y otra de Producto comunes para ambas tablas de hechos.",
+      "Combinar las tablas en una sola.",
+      "No crear relaciones y usar DAX complejo."
+    ],
+    "correcta": "Usar una tabla de dimensiones de Fecha y otra de Producto comunes para ambas tablas de hechos."
+  },
+  {
+    "id": 18,
+    "pregunta": "Desea ocultar una columna de ID en la vista de informe para que los usuarios no la vean, pero que siga disponible para las relaciones. ¿Qué debe hacer?",
+    "opciones": [
+      "Eliminar la columna en Power Query.",
+      "Ocultar en la vista de informe (Hide in report view).",
+      "Cambiar el nombre de la columna a un espacio.",
+      "Poner la fuente en color blanco."
+    ],
+    "correcta": "Ocultar en la vista de informe (Hide in report view)."
+  },
+  {
+    "id": 19,
+    "pregunta": "Está usando DirectQuery para conectarse a una base de datos. ¿Cuál es una limitación principal?",
+    "opciones": [
+      "No se pueden usar filtros.",
+      "No todas las funciones DAX están disponibles.",
+      "Los datos siempre están desactualizados.",
+      "No se puede publicar en la web."
+    ],
+    "correcta": "No todas las funciones DAX están disponibles."
+  },
+  {
+    "id": 20,
+    "pregunta": "Necesita comparar las ventas del mes actual con las del mes anterior. ¿Qué función DAX de inteligencia de tiempo es útil?",
+    "opciones": [
+      "PREVIOUSMONTH",
+      "NEXTMOΝΤΗ",
+      "LASTDATE",
+      "FIRSTDATE"
+    ],
+    "correcta": "PREVIOUSMONTH"
+  },
+  {
+    "id": 21,
+    "pregunta": "Tiene una tabla con 10 millones de filas. Debe mejorar el rendimiento de las consultas reduciendo el número de filas procesadas. ¿Qué característica de Power BI es la más adecuada?",
+    "opciones": [
+      "Columnas calculadas.",
+      "Tablas de agregación.",
+      "Formato condicional.",
+      "Marcadores."
+    ],
+    "correcta": "Tablas de agregación."
+  },
+  {
+    "id": 22,
+    "pregunta": "Desea que un informe de Power BI sea accesible para usuarios con daltonismo. ¿Qué acción debe realizar?",
+    "opciones": [
+      "Usar solo colores primarios.",
+      "Aplicar un tema de alto contraste o daltónico desde la pestaña Ver.",
+      "Aumentar el tamaño de la fuente.",
+      "Eliminar todos los gráficos de sectores."
+    ],
+    "correcta": "Aplicar un tema de alto contraste o daltónico desde la pestaña Ver."
+  },
+  {
+    "id": 23,
+    "pregunta": "Está configurando una relación entre una tabla de Ventas y una tabla de Calendario. ¿Cuál es la mejor práctica para la columna de fecha en la tabla de Calendario?",
+    "opciones": [
+      "Debe tener valores duplicados.",
+      "Debe contener fechas continuas y valores únicos.",
+      "Debe ser de tipo texto.",
+      "Debe actualizarse manualmente cada mes."
+    ],
+    "correcta": "Debe contener fechas continuas y valores únicos."
+  },
+  {
+    "id": 24,
+    "pregunta": "Debe crear una medida que ignore todos los filtros aplicados en el informe, excepto el filtro de Producto. ¿Qué función DAX debe usar dentro de CALCULATE?",
+    "opciones": [
+      "ALL()",
+      "ALLEXCEPT()",
+      "ALLSELECTED()",
+      "KEEPFILTERS()"
+    ],
+    "correcta": "ALLEXCEPT()"
+  },
+  {
+    "id": 25,
+    "pregunta": "En Power Query, desea combinar dos consultas que tienen las mismas columnas pero diferentes filas de datos. ¿Qué operación debe usar?",
+    "opciones": [
+      "Combinar consultas (Merge).",
+      "Anexar consultas (Append).",
+      "Transponer.",
+      "Agrupar por."
+    ],
+    "correcta": "Anexar consultas (Append)."
+  },
+  {
+    "id": 26,
+    "pregunta": "Tiene un informe con un mapa. Desea que los usuarios puedan filtrar el mapa seleccionando una categoría en un gráfico de barras. ¿Cómo se llama esta interacción predeterminada?",
+    "opciones": [
+      "Resaltado cruzado.",
+      "Filtrado cruzado.",
+      "Drill-down.",
+      "Drill-through."
+    ],
+    "correcta": "Resaltado cruzado."
+  },
+  {
+    "id": 27,
+    "pregunta": "Desea analizar la causa raíz de una disminución en las ventas directamente desde un gráfico en Power BI. ¿Qué función de IA integrada puede usar?",
+    "opciones": [
+      "Analizar -> Explicar la disminución.",
+      "Preguntas y respuestas (Q&A).",
+      "Elementos influyentes clave.",
+      "Narrativa inteligente."
+    ],
+    "correcta": "Analizar -> Explicar la disminución."
+  },
+  {
+    "id": 28,
+    "pregunta": "Está diseñando un informe para dispositivos móviles. ¿Qué debe hacer para optimizar la experiencia?",
+    "opciones": [
+      "No hacer nada, se ajusta solo.",
+      "Crear un diseño específico en la vista 'Diseño para móviles'.",
+      "Usar solo tablas.",
+      "Reducir el número de páginas a una."
+    ],
+    "correcta": "Crear un diseño específico en la vista 'Diseño para móviles'."
+  },
+  {
+    "id": 29,
+    "pregunta": "Tiene una medida que suma las ventas. Debe mostrar el porcentaje del total general en un objeto visual. ¿Qué opción de configuración del campo es más rápida?",
+    "opciones": [
+      "Crear una medida DAX con DIVIDE.",
+      "Usar 'Mostrar valor como' -> Porcentaje del total general.",
+      "Cambiar el tipo de datos a porcentaje.",
+      "Usar un filtro de nivel visual."
+    ],
+    "correcta": "Usar 'Mostrar valor como' -> Porcentaje del total general."
+  },
+  {
+    "id": 30,
+    "pregunta": "Debe asegurarse de que un conjunto de datos sea 'Certificado' para que otros departamentos confíen en él. ¿Dónde se configura esta opción?",
+    "opciones": [
+      "En Power BI Desktop.",
+      "En la configuración del conjunto de datos en el servicio Power BI.",
+      "En el Centro de administración de Microsoft 365.",
+      "En Azure SQL."
+    ],
+    "correcta": "En la configuración del conjunto de datos en el servicio Power BI."
+  },
+  {
+    "id": 31,
+    "pregunta": "Tiene una columna de 'Fecha de Pedido' y 'Fecha de Envío'. Desea calcular los días de diferencia. ¿Cuál es el transformador más eficiente en Power Query?",
+    "opciones": [
+      "Agregar columna personalizada con resta.",
+      "Seleccionar ambas columnas -> Agregar columna -> Fecha -> Diferencia (Días).",
+      "Usar una medida DAX DATEDIFF.",
+      "Dividir columna por delimitador."
+    ],
+    "correcta": "Seleccionar ambas columnas -> Agregar columna -> Fecha -> Diferencia (Días)."
+  },
+  {
+    "id": 32,
+    "pregunta": "Desea evitar que los usuarios descarguen los datos subyacentes de un informe publicado. ¿Dónde se ajusta esta restricción?",
+    "opciones": [
+      "Configuración de RLS.",
+      "Configuración del informe en el servicio Power BI.",
+      "En la pestaña de Modelado de Desktop.",
+      "No es posible evitarlo."
+    ],
+    "correcta": "Configuración del informe en el servicio Power BI."
+  },
+  {
+    "id": 33,
+    "pregunta": "En Power BI Desktop, nota que el modelo tiene relaciones circulares. ¿Cuál es la causa más probable?",
+    "opciones": [
+      "Demasiadas tablas de dimensiones.",
+      "Relaciones bidireccionales mal configuradas.",
+      "Uso de tablas de agregación.",
+      "Falta de una tabla de fechas."
+    ],
+    "correcta": "Relaciones bidireccionales mal configuradas."
+  },
+  {
+    "id": 34,
+    "pregunta": "Debe crear una visualización que muestre la relación entre dos medidas numéricas (ej. Ventas vs Costo). ¿Qué objeto visual es el más adecuado?",
+    "opciones": [
+      "Gráfico de líneas.",
+      "Gráfico de dispersión (Scatter chart).",
+      "Gráfico de cascada.",
+      "Treemap."
+    ],
+    "correcta": "Gráfico de dispersión (Scatter chart)."
+  },
+  {
+    "id": 35,
+    "pregunta": "Tiene un informe con un filtro de fecha. Desea que el filtro se aplique a todas las páginas del informe. ¿Dónde debe colocar el campo?",
+    "opciones": [
+      "Filtros de este objeto visual.",
+      "Filtros de esta página.",
+      "Filtros de todas las páginas.",
+      "Segmentación de datos (Slicer)."
+    ],
+    "correcta": "Filtros de todas las páginas."
+  },
+  {
+    "id": 36,
+    "pregunta": "Está utilizando la función DAX RELATED ¿Cuál es el requisito previo?",
+    "opciones": [
+      "Las tablas no deben estar relacionadas.",
+      "Debe existir una relación entre la tabla actual y la tabla de destino.",
+      "Ambas tablas deben ser tablas de hechos.",
+      "Solo funciona con DirectQuery."
+    ],
+    "correcta": "Debe existir una relación entre la tabla actual y la tabla de destino."
+  },
+  {
+    "id": 37,
+    "pregunta": "Desea que un informe cargue solo los datos necesarios para un usuario específico según su departamento. ¿Qué debe implementar?",
+    "opciones": [
+      "Seguridad a nivel de fila (RLS).",
+      "Parámetros de Power Query.",
+      "Filtros de nivel de informe.",
+      "Sensibilidad de etiquetas."
+    ],
+    "correcta": "Seguridad a nivel de fila (RLS)."
+  },
+  {
+    "id": 38,
+    "pregunta": "Tiene una tabla de empleados con una columna 'ManagerID' que hace referencia a la columna 'EmployeeID' de la misma tabla. ¿Cómo se llama esta jerarquía?",
+    "opciones": [
+      "Relación de varios a varios.",
+      "Jerarquía de elementos primarios y secundarios (Parent-Child).",
+      "Relación inactiva.",
+      "Esquema en estrella."
+    ],
+    "correcta": "Jerarquía de elementos primarios y secundarios (Parent-Child)."
+  },
+  {
+    "id": 39,
+    "pregunta": "En Power Query, ha realizado 10 pasos de transformación. Desea eliminar el paso número 5 sin borrar los demás. ¿Es posible?",
+    "opciones": [
+      "No, debe borrar del 10 al 5.",
+      "Sí, haciendo clic en la 'X' junto al paso (siempre que no rompa la dependencia de los siguientes).",
+      "Sí, pero solo en el editor avanzado.",
+      "No, los pasos son permanentes."
+    ],
+    "correcta": "Sí, haciendo clic en la 'X' junto al paso (siempre que no rompa la dependencia de los siguientes)."
+  },
+  {
+    "id": 40,
+    "pregunta": "Debe restringir el acceso a determinadas filas de datos en función de la región utilizando roles. Ya tiene los datos importados. ¿Cuál es el siguiente paso lógico?",
+    "opciones": [
+      "Publicar el informe.",
+      "Crear una definición de rol en Desktop.",
+      "Asignar usuarios al rol en el servicio web.",
+      "Compartir el área de trabajo."
+    ],
+    "correcta": "Crear una definición de rol en Desktop."
+  },
+  {
+    "id": 41,
+    "pregunta": "Tiene un modelo semántico llamado Model1 que contiene datos de un servidor SQL Server local. Debe asegurarse de que Modell se actualice todos los días a las 06:00 a.m. con el mínimo esfuerzo administrativo. ¿Qué debe hacer?",
+    "opciones": [
+      "En Power BI Desktop, descargar el archivo PBIX y actualizar.",
+      "En el servicio Power BI, configurar una actualización programada de Model1.",
+      "Usar Power Automate para activar la actualización.",
+      "Ejecutar un script de Python."
+    ],
+    "correcta": "En el servicio Power BI, configurar una actualización programada de Model1."
+  },
+  {
+    "id": 42,
+    "pregunta": "Debe crear una relación entre dos tablas con Seguridad a nivel de fila (RLS). La solución debe garantizar que los filtros cruzados bidireccionales se ajusten a la configuración de RLS. ¿Qué debe hacer?",
+    "opciones": [
+      "Crear una relación inactiva.",
+      "Crear una relación activa y seleccionar 'Aplicar filtro de seguridad en ambas direcciones'.",
+      "Usar una relación de varios a varios.",
+      "Desactivar RLS."
+    ],
+    "correcta": "Crear una relación activa y seleccionar 'Aplicar filtro de seguridad en ambas direcciones'."
+  },
+  {
+    "id": 43,
+    "pregunta": "Tiene un gráfico de barras agrupadas con la medida Salario. Debe crear una línea de referencia que indique qué empleados están por encima del salario medio. Solución: Crear una línea de promedio utilizando la medida Salario.",
+    "opciones": [
+      "Sí",
+      "No",
+      "N/A",
+      "N/A"
+    ],
+    "correcta": "Sí"
+  },
+  {
+    "id": 44,
+    "pregunta": "Mismo escenario (Salario medio). Solución: Crear una línea de percentil con la medida Salario y establecer el percentil en 50%.",
+    "opciones": [
+      "Sí",
+      "No",
+      "N/A",
+      "N/A"
+    ],
+    "correcta": "No"
+  },
+  {
+    "id": 45,
+    "pregunta": "Mismo escenario (Salario medio). Solución: Crear una línea de mediana utilizando la medida Salario",
+    "opciones": [
+      "Sí",
+      "No",
+      "N/A",
+      "N/A"
+    ],
+    "correcta": "No"
+  },
+  {
+    "id": 46,
+    "pregunta": "Model1 tiene Sales (1M filas), City Data (10k) y Salesperson (100). Debe reducir el tamaño garantizando análisis por vendedor y ciudad. Solución: Quita la tabla Salesperson.",
+    "opciones": [
+      "Sí",
+      "No",
+      "N/A",
+      "N/A"
+    ],
+    "correcta": "No"
+  },
+  {
+    "id": 47,
+    "pregunta": "Mismo escenario (Reducir tamaño). Solución: Quita la columna CityID de la tabla Sales.",
+    "opciones": [
+      "Sí",
+      "No",
+      "N/A",
+      "N/A"
+    ],
+    "correcta": "No"
+  },
+  {
+    "id": 48,
+    "pregunta": "Mismo escenario (Reducir tamaño). Solución: Quita la columna ProductID de la tabla Sales.,
+    "opciones": [
+      "Sí",
+      "No",
+      "N/A",
+      "N/A"
+    ],
+    "correcta": "Sí"
+  },
+  {
+    "id": 49,
+    "pregunta": "Asegurar que los datos se actualicen minimizando el esfuerzo de configuración (Orígenes: Azure SQL y Dynamics 365).",
+    "opciones": [
+      "Usar puerta de enlace local.",
+      "Configurar actualización programada sin utilizar puerta de enlace local.",
+      "Actualizar manual en Desktop.",
+      "Actualizar objetos visuales."
+    ],
+    "correcta": "Configurar actualización programada sin utilizar puerta de enlace local."
+  },
+  {
+    "id": 50,
+    "pregunta": "Relación entre lista de productos e ingresos minimizando tiempo de ejecución DAX. ¿Cardinalidad?",
+    "opciones": [
+      "Varios a uno",
+      "Uno a uno",
+      "Varios a varios",
+      "Uno a varios"
+    ],
+    "correcta": "Varios a uno"
+  },
+  {
+    "id": 51,
+    "pregunta": "¿Qué expresión DAX usar para obtener los saldos finales en el balance de situación?",
+    "opciones": [
+      "CALCULATE (SUM (BalanceSheet[BalanceAmount] ), DATESQTD ('Date' [Date]))",
+      "CALCULATE (MAX (BalanceSheet [BalanceAmount]), LASTDATE ('Date' [Date]))",
+      "FIRSTNONBLANK ('Date' [Date], SUM (BalanceSheet[BalanceAmount]))",
+      "CALCULATE (SUM (BalanceSheet [BalanceAmount] ), LASTDATE ('Date' [Date]))"
+    ],
+    "correcta": "CALCULATE (SUM (BalanceSheet [BalanceAmount] ), LASTDATE ('Date' [Date]))"
+  }
+]
